@@ -1,0 +1,6 @@
+Sliding window technique is useful for solving problems in array or string, 
+especially it is considered as a technique that could reduce the time complexity 
+from O(n^2) to O(n) 
+---------------------------------------------------------------------------------
+Type-1 fixed window of length k
+Type 2 Two pointer No fixed size of window

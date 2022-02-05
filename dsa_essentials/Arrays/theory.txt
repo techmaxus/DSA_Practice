@@ -1,0 +1,16 @@
+--size of array
+    --int n = sizeof(arr)/sizeof(int);
+
+-- int arr[] as a parameter works pass by reference and is same as *arr
+
+-- Linear Search
+-- Binary Search
+    -- Divide & Conquer
+    -- O(LogN)
+    -- Sorted array --Monotonic values
+-- Reverse array
+    -- Swap start and end in loop
+    -- O(n)
+-- All Pair
+-- Printing Subarray
+-- 

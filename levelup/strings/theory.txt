@@ -1,0 +1,52 @@
+dynamic arrray of character
+getline(cin,s); : 2 argument strings and cin
+but we can add third argument as ending point
+
+ex : getline(cin,s,'.') will accept string until '.' is recieved
+
+vector of string is possible
+
+iteration in string 
+for(char ch : s){
+    cout<<ch<<endl;
+}
+
+s.find(word) gives first occurence of word in the string
+s.find(word,idx) gives first occurence after idx
+int idx = s.find(word which is not present)==-1
+------------------------------------------------------------------
+string array as a array of character is always ended by null poin '\0'
+
+------------------------------------------------------------------
+Tokenization denotes splitting of a string with respect to some delimiter
+1. stringstream
+2. strtok
+=======================================================
+	string input;
+	getline(cin,input);
+
+	//create a string stream object
+	stringstream ss(input);
+	string token;
+	vector<string> tokens;
+	while(getline(ss,token,' ')){
+		tokens.push_back(token);
+	}
+
+	//print all all tokens
+	for(auto token:tokens){
+		cout<<token<<",";
+	}
+======================================================
+    char input[1000];
+    cin.getline(input,1000);
+
+   //strtok()
+     char *token =  strtok(input," ");
+     
+
+     while(token!=NULL){
+        cout<<token <<endl;
+        token = strtok(NULL," ");
+     }
+----------------------------------------------------------------------------------

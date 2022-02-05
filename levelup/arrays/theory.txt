@@ -1,0 +1,45 @@
+vector doubles its size after it is full using containers
+vector is passed by value in general like function(vector<int> v)
+to pass it by reference function(vector<int> &v)
+---------------------------------------------------------------------
+A 2d vector can have different number of element in different rows
+-----------------------------------------------------------------------
+inbuilt sort function
+Sort an array containing N integers
+sort(arr, arr +n)
+
+Sort an vector containing N integers
+sort(arr.begin(), arr.end())
+-------------------------------------------------------------------------
+The doubling of memory involves a new memory allocation in which all
+elements from previous memory are copied to newly allocated memory. 
+This happens internally inside the push_back() method when the vector is full. 
+Hence, this particular push_back() will take O(N) time 
+though the overall amortized complexity would still be O(1).
+------------------------------------------------------------------------------
+The overall time complexity of the following code is ___________.
+for(int i= 0; i < n; i = i + j){
+     for( j = 0; j < k; j ++){
+       // some work
+     } 
+}
+Outer loop runs N/K times, internal loop runs K times. Hence O(N).
+-----------------------------------------------------------------------------
+Consider the following  code, and predict the output.C
+
+float a = 3.14;
+double b = 3.14;
+if(a==b)      print("Coding");
+else    print("Minutes);
+
+float and double data types have different precision, 
+hence the direct comparison would return false.
+--------------------------------------------------------------------------------
+The following binary when stored in signed integer would represent ______________ ?
+11111111111111111111111111111111
+Negative Numbers are stored as 2s compliment form, MSB 1 represents its a negative number.
+If you take 2s compliment of remaining 31 bits ie invert all bits and add one. 
+You will get 1, and since MSB is 1 so it is -1.
+--------------------------------------------------------------------------------
+
+

@@ -1,0 +1,35 @@
+GRAPH ALGORITHMS
+===================
+--Graph Traversals
+    --BFS
+    --DFS
+--Shortest Path
+--Implicit graphs (2d matrices)
+--Problems
+
+KEY TERMS
+=========
+
+Types of graphs
+    --Weighted graphs   edges has weights --distance
+    --Unweighted graphs   each edge have same value -- social network
+    --Directed Graphs   each edge has a direction --flight network
+    --Undirected Graphs   bidirectional graph -- social network
+
+How to store graph
+    --Adjacency Matrix
+            --boolean for unweighted
+            --int for weighted
+            --advantages
+                --checking presence of edge between 2 vertices in O(1) time
+
+    --Adjacency List
+            --list of neighbour is represented in each list
+            --advantages
+                --easily get neighbours without Traversals
+                --less memory requirement O(v+e) vs O(v^2)
+
+
+
+
+

@@ -1,0 +1,3 @@
+inorder traversal of any bst is always sorted
+advantage : restric branch searchin ==> order(h) not logn in case of skewed bst O(n)
+generally reccursive problem
