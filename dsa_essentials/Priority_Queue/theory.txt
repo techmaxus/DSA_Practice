@@ -1,0 +1,2 @@
+Example : Covid Queue
+Any queue with certain priority
