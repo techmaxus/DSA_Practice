@@ -1,2 +1,44 @@
 Example : Covid Queue
-Any queue with certain priority
+Any queue with certain priority like age in above Example
+
+Can be solved u7sing sorting in NlogN time
+
+PQ will help to solve in N+klogN time
+
+3 Operations :
+    1 Insertion : O(logN)
+    2 Pop Max / Pop Min : O(logN)
+    3 Get Min / Get Max : O(1)
+
+Use Caes : Finding top performer in a competition
+
+Operation   unsorted Array  Sorted Array    List    BST     Heap
+push            O(1)            O(N)         O(N)   O(N)     O(logN) 
+pop             O(N)            O(1)         O(1)   O(N)     O(logN) 
+get             O(N)            O(1)         O(1)   O(N)     O(1) 
+
+
+Min heap : used to extract max element
+Min heap : used to extract min element
+
+What is a Heap?
+1. Binary Tree : at max 2 elements
+2. Complete Binary tree (CBT) : All except last level must 
+    be fully filled and left to right insertion in last level
+3. Heap order property : In case of max heap parent 
+    must be greater than both children
+
+We visualise the heap as a binary tree so that relationship 
+between parent and children can be properly visualised
+
+But Since it is a Complete Binary Tree It can be 
+easily Flattened into an Array
+for any node its children are at 2i and 2i+1
+Parents are present at i/2
+
+Insertion in heap
+place the new element after last index in the array 
+and compare it with its parent unit either it is the 
+top most element or the heap property is satisfied
+
+
