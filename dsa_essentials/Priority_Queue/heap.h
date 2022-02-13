@@ -9,10 +9,10 @@ class Heap{
         int right =2*i+1;
 
         int minIdx =i;
-        if(left<v.size() and v[left]<v[i]){
+        if(left<v.size() && v[left]<v[i]){
             minIdx = left;
         }
-        if(right<v.size() and v[right]<v[minIdx]){
+        if(right<v.size() && v[right]<v[minIdx]){
             minIdx = right;
         }
 

@@ -41,4 +41,14 @@ place the new element after last index in the array
 and compare it with its parent unit either it is the 
 top most element or the heap property is satisfied
 
+Priority queue STL
+push() , pop() , top() function are built in
+By Default a max heap is created which can be changed by passing additional arguments
+
+Nearby Cabs
+Brute Force : Sorting ==> NlogN + klogN
+Min Heap : build + pop k element ==> N + klogN
+
+better
+build a max heap of size k
 
